@@ -1,0 +1,4 @@
+numpy>=1.24
+matplotlib>=3.8
+# 可选:训练 MAPPO / contextual bandit 需要
+torch>=2.0

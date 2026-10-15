@@ -1,0 +1,10 @@
+=== 显著性检验 (52 seeds, wall regime) ===
+对比                       mean(A)  mean(B)   d     MWU-p      Welch-p   判定
+targeted     vs fixed         93.6%  90.7%  0.21  1.47e-01  2.77e-01  不显著
+targeted     vs roundrobin    93.6%  96.8% -0.31  3.34e-01  1.19e-01  不显著
+roundrobin   vs fixed         96.8%  90.7%  0.54  1.16e-02  6.01e-03  显著
+
+Holm-Bonferroni 校正后:
+  roundrobin vs fixed        p=1.16e-02  alpha=0.0167  -> 仍显著
+  targeted vs fixed          p=1.47e-01  alpha=0.0250  -> 不再显著
+  targeted vs roundrobin     p=3.34e-01  alpha=0.0500  -> 不再显著
