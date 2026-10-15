@@ -100,6 +100,11 @@ figures/               # publication figures + generation script
 docs/                  # findings summary, methods log
 ```
 
+## Repository
+
+- GitHub: https://github.com/lirui942654-creator/firevac-comm
+- Zenodo DOI: (see `docs/ZENODO.md` after publishing a release)
+
 ## Citation
 
 If you use this benchmark, please cite the Zenodo DOI (see `docs/ZENODO.md`).
